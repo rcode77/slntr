@@ -1,0 +1,10 @@
+{
+  "rules": {
+  
+  },
+  "ignorePatterns": [
+    "node_modules/",  
+    "dist/",          
+    "src/"  
+  ]
+}

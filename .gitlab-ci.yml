@@ -1,0 +1,53 @@
+stages:
+  - build
+  - push
+  - rmi
+  # - apply
+  - rollout
+variables:
+  REGISTRY: 10.1.101.130:5000
+
+build:
+  stage: build
+  tags:
+    - docker
+  script:
+    - docker build --network=host -t $REGISTRY/$CI_PROJECT_NAME:dev .
+  only:
+    - dev
+
+push:
+  stage: push
+  tags:
+    - docker
+  script:
+    - docker push $REGISTRY/$CI_PROJECT_NAME:dev
+  only:
+    - dev
+
+rmi:
+  stage: rmi
+  tags:
+    - docker
+  script:
+    - docker rmi -f $REGISTRY/$CI_PROJECT_NAME:dev
+  only:
+    - dev
+
+# apply:
+#   stage: apply
+#   tags:
+#     - kubectl
+#   script:
+#     - kubectl -n frontend-dev apply -f deploy-np.yaml
+#   only:
+#     - dev
+
+rollout:
+  stage: rollout
+  tags:
+    - kubectl
+  script:
+    - kubectl -n frontend-dev rollout restart deployment/silentera-dev
+  only:
+    - dev

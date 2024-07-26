@@ -1,0 +1,44 @@
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+
+.custom-tooltip {
+  position: absolute;
+  padding: 4px;
+  border: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  border: none;
+  box-shadow: none;
+}
+
+.custom-popup .leaflet-interactive {
+  border: none;
+  box-shadow: none;
+}
+
+.mypopup .leaflet-popup-content-wrapper {
+  background-color: #bad1c2;
+  border: 2px solid white;
+}
+
+.mypopup .leaflet-popup-tip {
+  background: #bad1c2;
+}

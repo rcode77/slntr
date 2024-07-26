@@ -1,0 +1,784 @@
+{
+    "Aceh": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.952960988227901
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 463
+            }
+        },
+        "timed_out": false,
+        "took": 16
+    },
+    "Bali": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.9158825761248486
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 49
+            }
+        },
+        "timed_out": false,
+        "took": 8
+    },
+    "Bangka Belitung": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.928201662254122
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 135
+            }
+        },
+        "timed_out": false,
+        "took": 14
+    },
+    "Banten": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.164395774129153
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 74
+            }
+        },
+        "timed_out": false,
+        "took": 11
+    },
+    "Bengkulu": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.03213495715508
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 162
+            }
+        },
+        "timed_out": false,
+        "took": 15
+    },
+    "Gorontalo": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.467026212820102
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 101
+            }
+        },
+        "timed_out": false,
+        "took": 12
+    },
+    "Jakarta Raya": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.760839639050191
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 6
+            }
+        },
+        "timed_out": false,
+        "took": 3
+    },
+    "Jambi": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.00105027992291
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 405
+            }
+        },
+        "timed_out": false,
+        "took": 16
+    },
+    "Jawa Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.100057845347298
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 301
+            }
+        },
+        "timed_out": false,
+        "took": 17
+    },
+    "Jawa Tengah": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.2447537896381755
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 285
+            }
+        },
+        "timed_out": false,
+        "took": 16
+    },
+    "Jawa Timur": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.2322191004043335
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 400
+            }
+        },
+        "timed_out": false,
+        "took": 18
+    },
+    "Kalimantan Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.9791090002094704
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 1186
+            }
+        },
+        "timed_out": false,
+        "took": 32
+    },
+    "Kalimantan Selatan": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.012813243047037
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 304
+            }
+        },
+        "timed_out": false,
+        "took": 17
+    },
+    "Kalimantan Tengah": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.999098860154894
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 1248
+            }
+        },
+        "timed_out": false,
+        "took": 27
+    },
+    "Kalimantan Timur": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.023428005423655
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 1025
+            }
+        },
+        "timed_out": false,
+        "took": 28
+    },
+    "Kalimantan Utara": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.058483602431299
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 571
+            }
+        },
+        "timed_out": false,
+        "took": 21
+    },
+    "Kepulauan Riau": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 2.4690050363095404
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 69
+            }
+        },
+        "timed_out": false,
+        "took": 18
+    },
+    "Lampung": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.12486653176975
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 270
+            }
+        },
+        "timed_out": false,
+        "took": 19
+    },
+    "Maluku": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.463631243238255
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 386
+            }
+        },
+        "timed_out": false,
+        "took": 22
+    },
+    "Maluku Utara": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.924744388073428
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 242
+            }
+        },
+        "timed_out": false,
+        "took": 17
+    },
+    "Nusa Tenggara Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.507478085741119
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 163
+            }
+        },
+        "timed_out": false,
+        "took": 14
+    },
+    "Nusa Tenggara Timur": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.278644898911519
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 389
+            }
+        },
+        "timed_out": false,
+        "took": 18
+    },
+    "Papua": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.4729515136573568
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 2563
+            }
+        },
+        "timed_out": false,
+        "took": 42
+    },
+    "Papua Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.7641377115634964
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 796
+            }
+        },
+        "timed_out": false,
+        "took": 24
+    },
+    "Riau": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.8675065459562967
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 732
+            }
+        },
+        "timed_out": false,
+        "took": 21
+    },
+    "Sulawesi Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.013854952153801
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 136
+            }
+        },
+        "timed_out": false,
+        "took": 13
+    },
+    "Sulawesi Selatan": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.129193749369149
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 369
+            }
+        },
+        "timed_out": false,
+        "took": 19
+    },
+    "Sulawesi Tengah": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.039309691930328
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 507
+            }
+        },
+        "timed_out": false,
+        "took": 34
+    },
+    "Sulawesi Tenggara": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.073735297167235
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 297
+            }
+        },
+        "timed_out": false,
+        "took": 16
+    },
+    "Sulawesi Utara": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.183702780627542
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 118
+            }
+        },
+        "timed_out": false,
+        "took": 11
+    },
+    "Sumatera Barat": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.87929039472516
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 339
+            }
+        },
+        "timed_out": false,
+        "took": 23
+    },
+    "Sumatera Selatan": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.1374174546974585
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 709
+            }
+        },
+        "timed_out": false,
+        "took": 20
+    },
+    "Sumatera Utara": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 3.942917460539085
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 590
+            }
+        },
+        "timed_out": false,
+        "took": 24
+    },
+    "Yogyakarta": {
+        "_shards": {
+            "failed": 0,
+            "skipped": 0,
+            "successful": 1,
+            "total": 1
+        },
+        "aggregations": {
+            "monthly_averages": {
+                "value": 4.245836152280567
+            }
+        },
+        "hits": {
+            "hits": [],
+            "max_score": null,
+            "total": {
+                "relation": "eq",
+                "value": 25
+            }
+        },
+        "timed_out": false,
+        "took": 8
+    }
+}
