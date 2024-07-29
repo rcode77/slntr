@@ -33,49 +33,60 @@ const Payment = () => {
 
   const [packageAvailable, setPackageAvailable] = useState([
     {
-      id: "basic",
-      name: "Basic",
-      price: "14.000",
-      duration: 3,
+      id: "monthly-forecast",
+      name: ["Basic", "Monthly", "30 Days"],
+      type: "Forecast",
+      price: "1.500.000",
+      duration: 30,
       description: [
-        "Mendapat akses data prakiraan 3 Hari kedepan dengan radius 10km",
-        "Download data prakiraan dalam bentuk CSV",
+        "Gratis akses data klimatologis dan prakiraan bulanan (7 bulan)",
+        "Akses data per jam hingga 7 hari ke depan",
+        "Akses data dalam format tabular (csv) dan format pdf",
       ],
       disable: false,
       loding: false,
     },
     {
-      id: "professional",
-      name: "Professional",
-      price: "25.000",
-      duration: 7,
+      id: "annual-forecast",
+      name: ["Basic", "Annual", "1 Year Calendar"],
+      type: "Forecast",
+      price: "16.000.000",
+      duration: 365,
       description: [
-        "Mendapat akses data prakiraan 7 Hari kedepan dengan radius 10km",
-        "Download data prakiraan dalam bentuk CSV",
+        "Gratis akses data klimatologis dan prakiraan bulanan (7 bulan)",
+        "Akses data per jam hingga 7 hari ke depan",
+        "Akses data dalam format tabular (csv) dan format pdf",
       ],
       disable: false,
       loading: false,
     },
     {
-      id: "enterprise",
-      name: "Enterprise",
-      price: "40.000",
-      duration: 14,
+      id: "monthly-monitoring",
+      name: ["Basic", "Monthly", "30 Days"],
+      type: "Monitoring",
+      price: "1.500.000",
+      duration: 30,
       description: [
-        "Mendapat akses data prakiraan 14 Hari kedepan dengan radius 10km",
-        "Download data prakiraan dalam bentuk CSV",
+        "Gratis akses data klimatologis dan prakiraan bulanan (7 bulan)",
+        "Akses data hingga 30 hari yang lalu",
+        "Akses data dalam format tabular (csv) dan format pdf",
       ],
       disable: false,
       loading: false,
     },
     {
-      id: "custom",
-      name: "Custom",
-      price: "-",
-      duration: "-",
-      description: ["Segera Hadir"],
-      disable: true,
-      loading: false,
+      id: "forecast-monitoring",
+      name: ["Basic", "Annual", "1 Year Calendar"],
+      type: "Monitoring",
+      price: "16.000.000",
+      duration: 365,
+      description: [
+        "Gratis akses data klimatologis dan prakiraan bulanan (7 bulan)",
+        "Akses data hingga 30 hari yang lalu",
+        "Akses data dalam format tabular (csv) dan format pdf",
+      ],
+      disable: false,
+      loding: false,
     },
   ]);
 
@@ -208,7 +219,7 @@ const Payment = () => {
           <div className="flex justify-center items-center py-6">
             <p className="text-white text-4xl font-bold">Pilih Paket</p>
           </div>
-          <div className="mt-8 pb-8 lg:pb-0 flex flex-col gap-4 md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-[10%] h-full lg:h-[50vh] items-center">
+          <div className="mt-8 pb-8 lg:pb-0 flex flex-col gap-4 md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-[10%] h-full lg:h-[55vh] items-center">
             {packageAvailable.map((pac, index) => (
               <div
                 key={index}
@@ -219,12 +230,23 @@ const Payment = () => {
               >
                 <div className="border-r h-[80%] top-10 absolute" />
                 <div className="flex text-slate-600 justify-evenly h-full items-center flex-col">
-                  <p
-                    className="font-bold text-xl"
-                    id={`text-sub-title-${pac.id}`}
-                  >
-                    {pac.name}
-                  </p>
+                  <center>
+                    <p
+                      className="font-bold text-xl text-[#1F8A70]"
+                      id={`text-sub-title-${pac.id}`}
+                    >
+                      {pac.type}
+                    </p>
+                    {pac.name.map((name, i) => (
+                      <p
+                        className="font-bold text-sm p-0"
+                        id={`text-sub-title-${pac.id}`}
+                      >
+                        {i == 2 ? `(${name})` : `${name}`}
+                      </p>
+                    ))}
+                  </center>
+
                   <div className="flex flex-col items-center w-full">
                     <p
                       className="font-bold text-2xl text-[#1F8A70]"
@@ -253,13 +275,19 @@ const Payment = () => {
                     {pac.description.map((desc, i) => (
                       <div
                         key={i}
-                        className="flex gap-2 items-center justify-start w-full"
+                        className={`flex gap-2 items-center justify-start w-full`}
                         id={`text-sub-desc${i + 1}-${pac.id}`}
                       >
                         <div>
                           <FiCheckCircle className="text-[#1F8A70]" />{" "}
                         </div>
-                        <p className="text-xs font-medium">{desc}</p>
+                        <p
+                          className={`text-xs ${
+                            i == 1 ? "font-bold" : "font-medium"
+                          }`}
+                        >
+                          {desc}
+                        </p>
                       </div>
                     ))}
                   </div>
